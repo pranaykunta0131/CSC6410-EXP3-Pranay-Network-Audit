@@ -1,10 +1,10 @@
 {
   "student-host:host": {
-    "hostname": "Pranay",
+    "hostname": "student-host",
     "os": "linux",
     "collected-at": "2026-11-12T11:55:50.238870+00:00",
     "dns-server": [
-      "10.255.255.254"
+      "192.0.2.53"
     ],
     "interface": [
       {
@@ -14,12 +14,12 @@
         "mtu": 65536,
         "ipv4": [
           "127.0.0.1/8",
-          "10.255.255.254/32"
+          "192.0.2.10/32"
         ],
         "ipv6": [
           "::1/128"
         ],
-        "mac": "REDACTED"
+        "mac": "02:00:00:00:00:01"
       },
       {
         "name": "eth0",
@@ -27,14 +27,14 @@
         "oper-status": "up",
         "mtu": 1350,
         "ipv4": [
-          "172.21.19.210/20"
+          "192.0.2.20/24"
         ],
         "ipv6": [
-          "fe80::215:5dff:fefb:fbda/64"
+          "fe80::1/64"
         ],
-        "mac": "REDACTED"
+        "mac": "02:00:00:00:00:02"
       }
     ],
-    "default-gateway": "172.21.16.1"
+    "default-gateway": "192.0.2.1"
   }
 }
